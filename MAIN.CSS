@@ -1,0 +1,115 @@
+
+body {
+    padding: 10px;
+    margin: 0;
+    background-color:white;
+}
+.navbar {
+    background:#928ff7;
+}
+.nav-link,
+.navbar-brand {
+    color: #0d0303;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #fa0b0b;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+   
+    background-size: cover;
+    background-position: center;
+    position: center;
+ 
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color:whitesmok
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #f70b0b;
+}
+.description p {
+	color: #161615;
+	font-size: 0.9rem;
+	line-height: 1.5;
+}
+.description button {
+    border:1px solid #83a970;
+    background:#17cba4;
+    border-radius: 20px;
+    color:#161414;
+    position:fixed bottom right;
+}
+.description button:hover {
+	border:1px solid #8e1313;
+    background:#f0ecec;
+    color:#100f0f;
+}
+.features {
+	margin:2rem  auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #120d0d;
+	font-size: 0.5rem;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+}
+.page-footer {
+    background-color: #443e3e;
+    color: #0c0505;
+    padding-inline: 30px;
+    height:20px;
+}
+.footer-copyright {
+    color: #f4c3c3;
+    height:10px;
+}@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position:center;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+.pic{
+    background-image : url(C:\Users\Lenovo\Desktop\download.jpg);
+}
+.page-header{
+    position:fixed left;
+}
