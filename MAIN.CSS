@@ -1,32 +1,25 @@
-
 body {
-    padding: 10px;
+    padding: 0;
     margin: 0;
-    background-color:white;
+    background: #f2f6e9;
 }
 .navbar {
-    background:#928ff7;
+    background:#74f06e;
 }
-.nav-link,
+.nav-link{
+    color:#000;
+}
 .navbar-brand {
-    color: #0d0303;
+    color: #942b2b;
     cursor: pointer;
 }
 .nav-link {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: #fa0b0b;
-}
+    color: #dc3232;}
 .navbar-collapse {
     justify-content: flex-end;
-}
-.header {
-   
-    background-size: cover;
-    background-position: center;
-    position: center;
- 
 }
 .overlay {
     position: absolute;
@@ -34,62 +27,66 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background-color:whitesmok
+    background: rgba(0, 0, 0, 0.6);
 }
 .description {
 	left: 50%;
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
 .description h1 {
-	color: #f70b0b;
+	color: #6ab446;
 }
 .description p {
-	color: #161615;
-	font-size: 0.9rem;
+	color: #fff;
+	font-size: 1.3rem;
 	line-height: 1.5;
 }
 .description button {
-    border:1px solid #83a970;
-    background:#17cba4;
-    border-radius: 20px;
-    color:#161414;
-    position:fixed bottom right;
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
 }
 .description button:hover {
-	border:1px solid #8e1313;
-    background:#f0ecec;
-    color:#100f0f;
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
 }
 .features {
-	margin:2rem  auto;
+	margin: 4em auto;
 	padding: 1em;
 	position: relative;
 }
 .feature-title {
-	color: #120d0d;
-	font-size: 0.5rem;
+	color: #333;
+	font-size: 1.3rem;
 	font-weight: 700;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
-
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
 }
 .page-footer {
-    background-color: #443e3e;
-    color: #0c0505;
-    padding-inline: 30px;
-    height:20px;
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
 }
 .footer-copyright {
-    color: #f4c3c3;
-    height:10px;
-}@media (max-width: 575.98px) {
+    color: #4f3939;
+    padding: 40px 0;
+}
+@media (max-width: 575.98px) {
     .description {
         left: 0;
         padding: 0 15px;
-        position:center;
+        position: absolute;
         top: 10%;
         transform: none;
         text-align: center;
@@ -106,10 +103,29 @@ body {
     .features {
         margin: 0;
     }
+}.card-body{
+    background-color:aquamarine;
+
 }
-.pic{
-    background-image : url(C:\Users\Lenovo\Desktop\download.jpg);
+.background {
+	background: #dedec8;
+	padding: 4em 0;
 }
-.page-header{
-    position:fixed left;
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border:none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
 }
